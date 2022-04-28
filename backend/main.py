@@ -25,10 +25,10 @@ def write():
     write_json(_json)
    
   
-    return "kkkkj"
+    return "Success"
 
 @app.route("/viewUsers", methods=['GET'])
-def hoii():
+def viewUsers():
     
     json_data = load_data()
     return json_data	
